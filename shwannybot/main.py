@@ -51,7 +51,7 @@ async def on_message(message):
         await message.channel.send(f"{message.author.mention} don't say the 'j' word in here lil bro...")
 
     ## Zest Counter
-    zest_list = ["zest", "fem", "gay", "glizzy", "banana", "dildo", "backshot", "diddy", "furry"]
+    zest_list = ["zest"]
     zest_count = 0
 
     with open("txt files/zests.txt", "a") as zest_file:
